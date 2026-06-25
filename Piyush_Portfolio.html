@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Piyush Tiwari Portfolio</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#050816;color:#fff}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 60px;position:sticky;top:0;background:rgba(5,8,22,.85);backdrop-filter:blur(10px)}
+.logo{font-size:32px;font-weight:bold;background:linear-gradient(90deg,#4cc9f0,#c77dff);-webkit-background-clip:text;color:transparent}
+.hero{display:flex;min-height:90vh;align-items:center;justify-content:space-around;padding:40px;gap:40px}
+h1{font-size:72px;line-height:1.1}
+.gradient{background:linear-gradient(90deg,#fff,#4cc9f0,#c77dff);-webkit-background-clip:text;color:transparent}
+.subtitle{font-size:28px;margin:20px 0;color:#d6d6d6}
+.desc{max-width:500px;line-height:1.8}
+.btn{display:inline-block;margin-top:25px;padding:14px 28px;border-radius:40px;background:linear-gradient(90deg,#3a86ff,#c77dff);color:white;text-decoration:none}
+.photo{width:420px;height:420px;border-radius:50%;overflow:hidden;border:4px solid #6f7cff;box-shadow:0 0 40px #8b5cf6}
+.photo img{width:100%;height:100%;object-fit:cover}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:25px;padding:40px 60px}
+.card{background:#0c1228;border:1px solid #26345c;border-radius:22px;padding:25px;box-shadow:0 0 20px rgba(111,124,255,.15)}
+.card h2{margin-bottom:15px;color:#8ecaff}
+.skills{display:flex;gap:12px;flex-wrap:wrap}
+.skill{padding:10px 16px;background:#121b39;border-radius:12px}
+footer{text-align:center;padding:30px;color:#aaa}
+</style>
+</head>
+<body>
+<nav>
+<div class="logo">PT Piyush Tiwari</div>
+<div>Home • About • Skills • Contact</div>
+</nav>
+
+<section class="hero">
+<div>
+<h1>Piyush <span class="gradient">Tiwari</span></h1>
+<div class="subtitle">Student • Web Developer • Educator</div>
+<p class="desc">Passionate about building beautiful websites, teaching and helping students grow. Currently learning and creating with HTML & CSS.</p>
+<a class="btn" href="mailto:pandatpiyuss07@gmail.com">Contact Me</a>
+</div>
+<div class="photo">
+<img src="profile.jpeg" alt="Profile" style="object-fit: cover; object-position: bottom;">
+</div>
+</section>
+
+<section class="cards">
+<div class="card">
+<h2>About Me</h2>
+<p>I'm Piyush Tiwari, a student and aspiring web developer with 6 years of teaching experience.</p>
+</div>
+
+<div class="card">
+<h2>My Skills</h2>
+<div class="skills">
+<span class="skill">HTML</span>
+<span class="skill">CSS</span>
+<span class="skill">Teaching</span>
+<span class="skill">Communication</span>
+</div>
+</div>
+
+<div class="card">
+<h2>Experience</h2>
+<p>6+ years of teaching experience helping students learn and grow.</p>
+</div>
+
+<div class="card">
+<h2>Contact</h2>
+<p>Email: pandatpiyuss07@gmail.com</p>
+</div>
+</section>
+
+<footer>© Piyush Tiwari Portfolio</footer>
+</body>
+</html>
